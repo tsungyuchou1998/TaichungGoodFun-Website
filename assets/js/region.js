@@ -1,4 +1,4 @@
-import { assetUrl, escapeHtml, lineBreaks, loadData, pageUrl, query } from './data-store.js';
+import { assetUrl, escapeHtml, lineBreaks, loadData, pageUrl, query, siteUrl } from './data-store.js';
 import { initializePublicUi, publicFooter, publicHeader, showPageError } from './public-ui.js';
 
 const app = document.querySelector('#app');
@@ -14,8 +14,7 @@ const render = async () => {
   const stories = storyData
     .filter((item) => item.region === region.slug && item.is_published !== false && item.is_featured === true)
     .sort((a, b) => a.sort_order - b.sort_order);
-  const attractions = attractionData.filter((item) => item.region === region.slug && item.is_published !== false).sort((a, b) => a.sort_order - b.sort_order);
-  const next = regions[(regions.indexOf(region) + 1) % regions.length];
+  const attractions = attractionData.filter((item) => item.region === region.slug && item.is_published !== false).sort((a, b) => a.sort_order - b.sort_order).slice(0, 3);
   document.body.className = region.body_class || `${region.slug}-page`;
   document.title = region.title || `${region.name}｜臺中好地 Fun`;
   document.querySelector('meta[name="description"]').content = region.description || region.home.intro;
@@ -33,8 +32,8 @@ const render = async () => {
     <section class="city-spots section" id="spots"><div class="section-heading reveal"><div><p class="eyebrow">${escapeHtml(region.spots.eyebrow)}</p><h2>${escapeHtml(region.spots.title)}</h2></div><a class="text-link" href="${escapeHtml(region.spots.more_url)}" target="_blank" rel="noopener noreferrer">探索更多景點 <span>↗</span></a></div><div class="spot-grid">${attractions.map((item, index) => `<a class="spot-card ${index === 0 ? 'spot-large' : ''} reveal" href="${escapeHtml(item.external_url || '#')}" ${item.external_url ? 'target="_blank" rel="noopener noreferrer"' : ''}><img src="${assetUrl(item.image_path)}" alt="${escapeHtml(item.name)}" loading="lazy"><div><small>${escapeHtml(item.meta_label || item.category)}</small><h3>${escapeHtml(item.name)}</h3><p>${escapeHtml(item.summary)}</p></div></a>`).join('') || '<p class="empty-message">目前沒有公開景點。</p>'}</div></section>
     <section class="city-flavors" id="flavors"><div class="flavor-banner"><div class="flavor-photo" style="background-image:url('${assetUrl(region.flavors.banner_image)}')"></div><div class="flavor-shade"></div><div class="flavor-copy reveal"><p class="eyebrow light">${escapeHtml(region.flavors.eyebrow)}</p><h2>${escapeHtml(region.flavors.title)}</h2><p>${escapeHtml(region.flavors.intro)}</p><div class="flavor-tags">${region.flavors.tags.map((tag) => `<span>${escapeHtml(tag)}</span>`).join('')}</div></div></div><div class="flavor-recommend section"><div class="section-heading reveal"><div><p class="eyebrow">${escapeHtml(region.flavors.collection_eyebrow)}</p><h2>${escapeHtml(region.flavors.collection_title)}</h2></div><p class="heading-note">${escapeHtml(region.flavors.note)}</p></div><div class="flavor-grid">${region.flavors.cards.map((item) => `<a class="flavor-card reveal" href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer"><span class="flavor-no">${escapeHtml(item.number)}</span><div class="flavor-kind">${escapeHtml(item.meta || item.kicker)}</div><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.description)}</p><dl>${(item.details || []).map((detail) => `<div><dt>${escapeHtml(detail.label)}</dt><dd>${escapeHtml(detail.value)}</dd></div>`).join('')}</dl><span class="card-link">查看店家資訊 ↗</span></a>`).join('')}</div><div class="flavor-more reveal"><a class="text-link" href="${escapeHtml(region.flavors.more_url)}" target="_blank" rel="noopener noreferrer">瀏覽全部${escapeHtml(region.name)}美食 <span>↗</span></a></div></div></section>
     <section class="city-route section" id="route"><div class="route-selector reveal" role="tablist" aria-label="選擇推薦遊程">${region.routes.tabs.map((tab, index) => `<button class="route-tab ${index === 0 ? 'active' : ''}" type="button" role="tab" aria-selected="${index === 0}" data-route="${escapeHtml(tab.key)}">${escapeHtml(tab.label)}<small>${escapeHtml(tab.english)}</small></button>`).join('')}</div><p class="route-advice reveal">${escapeHtml(region.routes.advice)}</p><div class="route-layout" id="route-panel" role="tabpanel" tabindex="0"></div></section>
-    <section class="next-region"><p>NEXT JOURNEY</p><a href="${pageUrl('pages/region.html', { region: next.slug })}"><span>${escapeHtml(region.next.label || '繼續探索臺中')}</span><strong>${escapeHtml(next.name)} →</strong></a></section>
-  </main>${publicFooter(site)}${new URLSearchParams(location.search).get('preview') === '1' ? '<span class="preview-banner">草稿預覽</span>' : ''}`;
+    <section class="next-region"><p>NEXT JOURNEY</p><a href="${siteUrl('index.html')}#regions"><span>${escapeHtml(region.next.label || '繼續探索臺中')}</span><strong>四大區域 →</strong></a></section>
+  </main>${publicFooter(site, { region })}${new URLSearchParams(location.search).get('preview') === '1' ? '<span class="preview-banner">草稿預覽</span>' : ''}`;
   initializePublicUi();
   initializeRegion(region);
 };

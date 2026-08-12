@@ -2,9 +2,11 @@ import { assetUrl, escapeHtml, pageUrl, siteUrl } from './data-store.js';
 
 export const publicHeader = (site, options = {}) => {
   const home = siteUrl('index.html');
-  const links = options.region
-    ? `<a href="#story">${escapeHtml(options.region.name)}印象</a><a href="#guide">旅行攻略</a><a href="#spots">必遊景點</a><a href="#flavors">地方風味</a><a href="#route">推薦遊程</a>`
-    : `<a href="${home}#about">${escapeHtml(site.site.nav_about)}</a><a href="${home}#regions">${escapeHtml(site.site.nav_regions)}</a><a href="${home}#featured">${escapeHtml(site.site.nav_featured)}</a><a href="${home}#news">${escapeHtml(site.site.nav_news)}</a>`;
+  const links = options.regions
+    ? options.regions.map((region) => `<a class="region-switch ${region.slug === options.activeRegion?.slug ? 'active' : ''}" href="${pageUrl('pages/stories.html', { region: region.slug }, 'stories')}" data-region="${escapeHtml(region.slug)}">${escapeHtml(region.name)}</a>`).join('')
+    : options.region
+      ? `<a href="#story">${escapeHtml(options.region.name)}印象</a><a href="#guide">旅行攻略</a><a href="#spots">必遊景點</a><a href="#flavors">地方風味</a><a href="#route">推薦遊程</a>`
+      : `<a href="${home}#about">${escapeHtml(site.site.nav_about)}</a><a href="${home}#regions">${escapeHtml(site.site.nav_regions)}</a><a href="${home}#featured">${escapeHtml(site.site.nav_featured)}</a><a href="${home}#news">${escapeHtml(site.site.nav_news)}</a>`;
   return `<header class="site-header" id="top">
     <a class="brand" href="${home}" aria-label="回到首頁"><img src="${assetUrl(site.site.logo)}" alt="臺中好地 Fun"></a>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
@@ -12,11 +14,25 @@ export const publicHeader = (site, options = {}) => {
   </header>`;
 };
 
-export const publicFooter = (site) => `<footer>
-  <div><img src="${assetUrl(site.site.logo)}" alt="臺中好地 Fun"></div>
-  <nav><a href="${siteUrl('index.html')}">回到首頁</a><a href="#top">返回頂端</a><a href="${pageUrl('admin/index.html')}">內容管理</a></nav>
-  <p>${escapeHtml(site.site.copyright)}</p>
-</footer>`;
+export const publicFooter = (site, options = {}) => {
+  if (options.journal) {
+    return `<footer>
+      <img src="${assetUrl(site.site.logo)}" alt="臺中好地 Fun">
+      <p>${escapeHtml(site.journal.footer_text)}</p>
+      <a href="#top">${escapeHtml(site.journal.back_to_top)}</a>
+    </footer>`;
+  }
+
+  const links = options.region
+    ? `<a href="${siteUrl('index.html')}">回到首頁</a><a href="#top">返回頂端</a><a href="https://travel.taichung.gov.tw/zh-tw/attractions/megalopolis" target="_blank" rel="noopener noreferrer">參考資訊</a>`
+    : `<a href="${siteUrl('index.html')}#about">${escapeHtml(site.site.nav_about)}</a><a href="${siteUrl('index.html')}#regions">${escapeHtml(site.site.nav_regions)}</a><a href="${siteUrl('index.html')}#featured">${escapeHtml(site.site.nav_featured)}</a><a href="#top">返回頂端</a>`;
+
+  return `<footer>
+    <div><img src="${assetUrl(site.site.logo)}" alt="臺中好地 Fun"></div>
+    <nav aria-label="頁尾選單">${links}</nav>
+    <p>${escapeHtml(site.site.copyright)}</p>
+  </footer>`;
+};
 
 export const initializePublicUi = () => {
   const header = document.querySelector('.site-header');
@@ -30,9 +46,21 @@ export const initializePublicUi = () => {
     nav.classList.remove('open');
     toggle?.setAttribute('aria-expanded', 'false');
   }));
-  const updateHeader = () => header?.classList.toggle('scrolled', scrollY > 80);
+  const updateHeader = () => header?.classList.toggle('scrolled', scrollY > 100);
   updateHeader();
   addEventListener('scroll', updateHeader, { passive: true });
+
+  const travelJournal = document.querySelector('.travel-journal');
+  const heroSection = document.querySelector('.hero');
+  if (travelJournal && heroSection) {
+    const syncTravelJournal = () => {
+      const heroEnd = heroSection.offsetTop + heroSection.offsetHeight;
+      travelJournal.classList.toggle('is-visible', scrollY >= heroEnd);
+    };
+    syncTravelJournal();
+    addEventListener('scroll', syncTravelJournal, { passive: true });
+    addEventListener('resize', syncTravelJournal);
+  }
 
   const reveal = new IntersectionObserver((entries) => entries.forEach((entry) => {
     if (entry.isIntersecting) {

@@ -1,1 +1,102 @@
-.static-loading,.static-error{min-height:70vh;display:grid;place-content:center;text-align:center;padding:48px;color:#315346}.static-error{max-width:760px;margin:auto}.static-error h1{font-family:"Noto Serif TC",serif}.preview-banner{position:fixed;z-index:1000;right:18px;bottom:18px;padding:10px 14px;border-radius:99px;background:#17392e;color:#fff;font-size:12px;box-shadow:0 8px 24px #0003}.city-story .story-copy p+P{margin-top:1.2em}.empty-message{padding:30px;border:1px solid #dce5df;text-align:center;color:#687a71}.note-district-tags{display:flex;flex-wrap:wrap;gap:8px;margin:15px 0}.note-district-tags span{padding:5px 10px;border:1px solid #ffffff80;border-radius:99px;font-size:12px}.route-day-badge{display:inline-flex;margin-bottom:8px;padding:4px 8px;border-radius:99px;background:#e8f0eb;color:#315a48;font-size:11px}.home-admin-link{position:fixed;z-index:900;left:18px;bottom:18px;display:inline-flex;padding:9px 13px;border-radius:99px;background:#fff;color:#254c3c;border:1px solid #cfdcd4;font-size:12px;box-shadow:0 6px 20px #18302920}.site-header .brand img{max-width:125px}.city-hero-slide{transition:opacity .8s ease}.city-hero-slide:not(:first-child){opacity:0}.city-hero-slide.active{opacity:1}.city-mosaic .mosaic-media img{width:100%;height:100%;object-fit:cover}.story-filter-bar{display:flex;justify-content:flex-end;margin:0 0 30px}.district-filter-form{display:flex;align-items:center;gap:12px}.district-filter-form label{font-size:11px;letter-spacing:.15em;color:#64786e}.district-filter-form select{padding:10px 38px 10px 12px;border:1px solid #cedbd3;background:#fff;color:#24493a}.note-next a{min-width:0}.note-next span{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}@media(max-width:680px){.home-admin-link{display:none}.story-filter-bar{justify-content:stretch}.district-filter-form{width:100%;justify-content:space-between}}
+.static-loading,
+.static-error {
+  min-height: 70vh;
+  display: grid;
+  place-content: center;
+  padding: 48px;
+  color: #315346;
+  text-align: center
+}
+
+.static-error {
+  max-width: 760px;
+  margin: auto
+}
+
+.static-error h1 {
+  font-family: "Noto Serif TC", serif
+}
+
+.preview-banner {
+  position: fixed;
+  z-index: 1000;
+  right: 18px;
+  bottom: 18px;
+  padding: 10px 14px;
+  border-radius: 99px;
+  background: #17392e;
+  color: #fff;
+  box-shadow: 0 8px 24px #0003;
+  font-size: 12px
+}
+
+.city-story .story-copy p+p {
+  margin-top: 1.2em
+}
+
+.empty-message {
+  padding: 30px;
+  border: 1px solid #dce5df;
+  color: #687a71;
+  text-align: center
+}
+
+.route-day-badge {
+  display: inline-flex;
+  margin-bottom: 8px;
+  padding: 4px 8px;
+  border-radius: 99px;
+  background: #e8f0eb;
+  color: #315a48;
+  font-size: 11px
+}
+
+.home-admin-link {
+  position: fixed;
+  z-index: 900;
+  left: 18px;
+  bottom: 18px;
+  display: inline-flex;
+  padding: 9px 13px;
+  border: 1px solid #cfdcd4;
+  border-radius: 99px;
+  background: #fff;
+  color: #254c3c;
+  box-shadow: 0 6px 20px #18302920;
+  font-size: 12px
+}
+
+.city-hero-slide {
+  transition: opacity .8s ease
+}
+
+.city-hero-slide:not(:first-child) {
+  opacity: 0
+}
+
+.city-hero-slide.active {
+  opacity: 1
+}
+
+.city-mosaic .mosaic-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover
+}
+
+.note-next a {
+  min-width: 0
+}
+
+.note-next span {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap
+}
+
+@media(max-width:680px) {
+  .home-admin-link {
+    display: none
+  }
+}

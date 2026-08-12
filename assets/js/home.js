@@ -1,4 +1,4 @@
-import { assetUrl, escapeHtml, lineBreaks, loadData, pageUrl, siteUrl } from './data-store.js';
+import { assetUrl, escapeHtml, lineBreaks, loadData, pageUrl } from './data-store.js';
 import { initializePublicUi, publicFooter, publicHeader, showPageError } from './public-ui.js';
 
 const app = document.querySelector('#app');
@@ -34,14 +34,13 @@ const render = async () => {
       </section>
       <section class="regions section" id="regions">
         <div class="section-heading reveal"><div><p class="eyebrow">${escapeHtml(site.regions.eyebrow)}</p><h2>${escapeHtml(site.regions.title)}</h2></div><a class="text-link" href="${escapeHtml(site.regions.more_url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(site.regions.more_label)} <span>→</span></a></div>
-        <div class="region-grid">${regions.map((region, index) => `<a class="region-card reveal" href="${pageUrl('pages/region.html', { region: region.slug })}"><img src="${assetUrl(region.home.card_image)}" alt="${escapeHtml(region.home.card_alt)}" loading="lazy"><div class="region-card-shade"></div><div class="region-card-copy"><span>0${index + 1}</span><small>${escapeHtml(region.english_name)}</small><h3>${escapeHtml(region.name)}</h3><p>${escapeHtml(region.home.intro)}</p><b>${escapeHtml(region.home.tagline)} →</b></div></a>`).join('')}</div>
+        <div class="region-grid">${regions.map((region) => `<a class="region-card reveal" id="${escapeHtml(region.slug)}" href="${pageUrl('pages/region.html', { region: region.slug })}"><img src="${assetUrl(region.home.card_image)}" alt="${escapeHtml(region.home.card_alt)}" loading="lazy"><div class="card-overlay"><small>${escapeHtml(region.english_name)}</small><h3>${escapeHtml(region.name)}</h3><span>${escapeHtml(region.home.tagline)}</span></div><p>${escapeHtml(region.home.intro)}</p></a>`).join('')}</div>
       </section>
       ${playlist.length ? `<section class="featured" id="featured"><video class="featured-video" id="featured-video" autoplay muted playsinline preload="metadata" poster="${assetUrl(site.featured.poster)}" aria-hidden="true"><source src="${assetUrl(firstVideo.src)}" type="video/mp4"></video><div class="featured-shade"></div><button class="featured-arrow featured-prev" type="button" aria-label="播放上一段影片">←</button><button class="featured-arrow featured-next" type="button" aria-label="播放下一段影片">→</button><div class="featured-copy reveal" aria-live="polite"><h2 class="featured-title">${escapeHtml(firstVideo.title)}</h2><span class="featured-subtitle">${escapeHtml(firstVideo.subtitle)}</span></div></section>` : ''}
       <section class="news section" id="news"><div class="news-intro reveal"><p class="eyebrow">${escapeHtml(site.news.eyebrow)}</p><h2>${escapeHtml(site.news.title)}</h2><p>${escapeHtml(site.news.intro)}</p></div><div class="news-list reveal" id="latest-news" aria-live="polite">${news.length ? news.map((article) => `<a href="${escapeHtml(article.source_url)}" target="_blank" rel="noopener noreferrer"><time datetime="${escapeHtml(article.source_updated_at)}">${escapeHtml(article.source_updated_at.replaceAll('-', '.'))}</time><span class="tag">${escapeHtml(article.category)}</span><b>${escapeHtml(article.title)}</b><i>↗</i></a>`).join('') : '<p>目前沒有公開消息。</p>'}<div class="news-more-row"><a class="news-more" href="${escapeHtml(site.news.more_url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(site.news.more_label)}</a></div></div></section>
     </main>
     <dialog class="video-modal" aria-labelledby="modal-video-title"><button class="modal-close" aria-label="關閉">×</button><h2 class="sr-only" id="modal-video-title">${escapeHtml(site.modal.title)}</h2><video class="modal-video" controls muted playsinline preload="metadata" poster="${assetUrl(site.modal.poster)}"><source src="${assetUrl(site.modal.video)}" type="video/mp4"></video></dialog>
     ${publicFooter(site)}
-    <a class="home-admin-link" href="${siteUrl('admin/index.html')}">內容管理</a>
     ${new URLSearchParams(location.search).get('preview') === '1' ? '<span class="preview-banner">草稿預覽</span>' : ''}`;
 
   initializePublicUi();
