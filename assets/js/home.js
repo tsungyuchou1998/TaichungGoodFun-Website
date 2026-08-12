@@ -1,5 +1,5 @@
 import { assetUrl, escapeHtml, lineBreaks, loadData, pageUrl } from './data-store.js';
-import { initializePublicUi, publicFooter, publicHeader, showPageError } from './public-ui.js';
+import { initializePublicUi, publicFooter, publicHeader, showPageError } from './public-ui.js?v=20260812-2';
 
 const app = document.querySelector('#app');
 

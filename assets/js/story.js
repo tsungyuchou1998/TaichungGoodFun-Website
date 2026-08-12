@@ -1,5 +1,5 @@
 import { assetUrl, escapeHtml, loadData, pageUrl, query, siteUrl } from './data-store.js';
-import { showPageError } from './public-ui.js';
+import { showPageError } from './public-ui.js?v=20260812-2';
 
 const app = document.querySelector('#app');
 

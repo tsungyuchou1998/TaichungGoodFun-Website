@@ -1,5 +1,5 @@
 import { assetUrl, escapeHtml, lineBreaks, loadData, pageUrl, query, siteUrl } from './data-store.js';
-import { initializePublicUi, publicFooter, publicHeader, showPageError } from './public-ui.js';
+import { initializePublicUi, publicFooter, publicHeader, showPageError } from './public-ui.js?v=20260812-2';
 
 const app = document.querySelector('#app');
 const richTitle = (value = '') => escapeHtml(value).replaceAll('&lt;br&gt;', '<br>');
