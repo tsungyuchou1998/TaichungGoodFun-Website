@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "source": "臺中觀光旅遊網",
+    "source_id": "static-1",
+    "category": "旅遊",
+    "title": "暑假到台中入住特色文創旅宿，深度漫遊舊城",
+    "source_url": "https://travel.taichung.gov.tw/zh-tw/event/news",
+    "event_starts_at": null,
+    "event_ends_at": null,
+    "source_updated_at": "2026-07-24",
+    "is_current": true,
+    "synced_at": "2026-08-10T07:07:41.863Z",
+    "updated_at": "2026-08-10T07:07:41.863Z"
+  },
+  {
+    "id": 2,
+    "source": "臺中觀光旅遊網",
+    "source_id": "static-2",
+    "category": "美食",
+    "title": "台中星光再添新頁，特色餐廳入選米其林指南",
+    "source_url": "https://travel.taichung.gov.tw/zh-tw/event/news",
+    "event_starts_at": null,
+    "event_ends_at": null,
+    "source_updated_at": "2026-07-22",
+    "is_current": true,
+    "synced_at": "2026-08-10T07:07:41.863Z",
+    "updated_at": "2026-08-10T07:07:41.863Z"
+  },
+  {
+    "id": 3,
+    "source": "臺中觀光旅遊網",
+    "source_id": "static-3",
+    "category": "活動",
+    "title": "石岡熱氣球嘉年華登場，感受山城夏日魅力",
+    "source_url": "https://travel.taichung.gov.tw/zh-tw/event/news",
+    "event_starts_at": null,
+    "event_ends_at": null,
+    "source_updated_at": "2026-07-22",
+    "is_current": true,
+    "synced_at": "2026-08-10T07:07:41.863Z",
+    "updated_at": "2026-08-10T07:07:41.863Z"
+  },
+  {
+    "id": 4,
+    "source": "臺中觀光旅遊網",
+    "source_id": "static-4",
+    "category": "海線",
+    "title": "台中海洋觀光季系列活動，邀你熱血玩海線",
+    "source_url": "https://travel.taichung.gov.tw/zh-tw/event/news",
+    "event_starts_at": null,
+    "event_ends_at": null,
+    "source_updated_at": "2026-07-21",
+    "is_current": true,
+    "synced_at": "2026-08-10T07:07:41.863Z",
+    "updated_at": "2026-08-10T07:07:41.863Z"
+  }
+]

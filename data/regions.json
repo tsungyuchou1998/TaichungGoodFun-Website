@@ -1,0 +1,1994 @@
+[
+  {
+    "id": 1,
+    "name": "城區",
+    "english_name": "CITY CENTER",
+    "theme_color": "#8c7358",
+    "slug": "city",
+    "body_class": "city-page",
+    "title": "走訪・城區｜臺中好地 Fun",
+    "description": "走訪臺中城區：從老城巷弄、藝文地標到水岸綠意，發現八個城區的日常風景。",
+    "hero": {
+      "eyebrow": "TAICHUNG · CITY CENTER",
+      "title": "走訪・城區",
+      "subtitle": "在新舊交會的街廓裡，讀一座城市的日常",
+      "slides": [
+        {
+          "image": "assets/images/HeroPage_城區_01.jpg",
+          "alt": "臺中國家歌劇院空拍"
+        },
+        {
+          "image": "assets/images/HeroPage_城區_02.jpg",
+          "alt": "審計新村文創街區"
+        },
+        {
+          "image": "assets/images/HeroPage_城區_03.jpg",
+          "alt": "帝國製糖廠臺中營業所"
+        },
+        {
+          "image": "assets/images/HeroPage_城區_04.jpg",
+          "alt": "秋紅谷城市綠地"
+        },
+        {
+          "image": "assets/images/HeroPage_城區_05.jpg",
+          "alt": "宮原眼科歷史建築廊道"
+        },
+        {
+          "image": "assets/images/HeroPage_城區_06.jpg",
+          "alt": "秋紅谷夜間水景"
+        },
+        {
+          "image": "assets/images/HeroPage_城區_07.jpg",
+          "alt": "柳川水岸夜景空拍"
+        }
+      ]
+    },
+    "subnav": [
+      {
+        "target": "story",
+        "label": "城區印象",
+        "english": "CITY STORY",
+        "description": "認識・八區風景"
+      },
+      {
+        "target": "guide",
+        "label": "旅行攻略",
+        "english": "TRAVEL NOTES",
+        "description": "漫遊・七種靈感"
+      },
+      {
+        "target": "spots",
+        "label": "必遊景點",
+        "english": "HIGHLIGHTS",
+        "description": "探索・城市地標"
+      },
+      {
+        "target": "flavors",
+        "label": "地方風味",
+        "english": "LOCAL FLAVORS",
+        "description": "品嚐・城區日常"
+      },
+      {
+        "target": "route",
+        "label": "推薦遊程",
+        "english": "ONE DAY TRIP",
+        "description": "出發・一日散策"
+      }
+    ],
+    "story": {
+      "eyebrow": "MEET THE CITY",
+      "title": "一座城，\n八種生活風景。",
+      "paragraphs": [
+        "城區是臺中歷史與當代生活交會的舞台。從中區的舊城街廓、東區的城市記憶，到西區的人文藝廊與西屯的摩登天際線，每一次轉彎，都能遇見不同節奏。",
+        "一路延伸至文風鼎盛的南區、商圈熱鬧的北區、保留聚落故事的南屯，以及擁抱大坑綠意的北屯。八個行政區彼此相鄰，卻各有鮮明性格，適合用步行、單車與大眾運輸慢慢收藏。"
+      ],
+      "districts": [
+        "中區",
+        "東區",
+        "南區",
+        "西區",
+        "北區",
+        "西屯",
+        "南屯",
+        "北屯"
+      ]
+    },
+    "mosaic": {
+      "eyebrow": "CITY SCENES",
+      "title": "建築、舊城與綠意，\n拼成臺中的日常風景。",
+      "intro": "三種城市表情，以不同節奏散落在城區。讓視線沿著照片慢慢移動，也讓旅行在新與舊、繁華與自然之間自在切換。",
+      "items": [
+        {
+          "alignment": "left",
+          "image": "assets/images/HeroPage_城區_01.jpg",
+          "alt": "臺中國家歌劇院當代建築",
+          "number": "01",
+          "kicker": "CONTEMPORARY",
+          "caption": "當代建築，勾勒城市曲線"
+        },
+        {
+          "alignment": "right",
+          "image": "assets/images/HeroPage_城區_03.jpg",
+          "alt": "帝國製糖廠臺中營業所歷史建築",
+          "number": "02",
+          "kicker": "OLD TOWN",
+          "caption": "老建築裡，時間仍在發光"
+        },
+        {
+          "alignment": "offset",
+          "image": "assets/images/HeroPage_城區_04.jpg",
+          "alt": "秋紅谷城市綠地與水景",
+          "number": "03",
+          "kicker": "URBAN NATURE",
+          "caption": "一片綠意，讓城市慢下來"
+        }
+      ]
+    },
+    "guide": {
+      "eyebrow": "TRAVEL NOTES",
+      "title": "構築城區靈感",
+      "note": "從早到晚，找到你的城市步調。"
+    },
+    "spots": {
+      "eyebrow": "CITY HIGHLIGHTS",
+      "title": "城區必遊",
+      "more_url": "https://travel.taichung.gov.tw/zh-tw/attractions/list?extra_region=central%2Ceast%2Csouth%2Cwest%2Cnorth%2Cbeitun%2Cxitun%2Cnantun",
+      "cards": [
+        {
+          "url": "https://travel.taichung.gov.tw/zh-tw/attractions/intro/28",
+          "image": "assets/images/HeroPage-02.png",
+          "alt": "臺中公園湖心亭夜景",
+          "number": "",
+          "meta": "",
+          "kicker": "HERITAGE · NORTH DIST.",
+          "title": "臺中公園・湖心亭",
+          "description": "走進北區的百年城市公園，沿日月湖散步，在湖心亭與中山橋的倒影中感受臺中的悠長時光。",
+          "details": [],
+          "slug": "city-highlight-1",
+          "sort_order": 1
+        },
+        {
+          "url": "https://travel.taichung.gov.tw/zh-tw/attractions/intro/942",
+          "image": "assets/images/HeroPage_城區_01.jpg",
+          "alt": "臺中國家歌劇院空拍景觀",
+          "number": "",
+          "meta": "",
+          "kicker": "ART · XITUN",
+          "title": "臺中國家歌劇院",
+          "description": "走進伊東豊雄設計的曲牆建築，在展演、光影與屋頂花園之間展開一場藝術漫遊。",
+          "details": [],
+          "slug": "city-highlight-2",
+          "sort_order": 2
+        },
+        {
+          "url": "https://travel.taichung.gov.tw/zh-tw/attractions/intro/1139",
+          "image": "assets/images/Taichung_images_城區_03.jpg",
+          "alt": "審計新村老宿舍與文創空間",
+          "number": "",
+          "meta": "",
+          "kicker": "CREATIVE · WEST DIST.",
+          "title": "審計新村",
+          "description": "走進由老宿舍活化而成的文創聚落，逛特色小店、手作品牌與假日市集，感受西區新舊交融的生活氣息。",
+          "details": [],
+          "slug": "city-highlight-3",
+          "sort_order": 3
+        }
+      ]
+    },
+    "flavors": {
+      "banner_image": "assets/images/Taichung_images_城區_09.jpg",
+      "eyebrow": "LOCAL FLAVORS",
+      "title": "一口，吃進臺中的日常。",
+      "intro": "一杯茶、一份現做點心，也能成為認識城市的入口。從西區的茶文化到北區的夜市滋味，這四站適合排進你的城區散策。",
+      "tags": [],
+      "collection_eyebrow": "TASTE THE CITY",
+      "collection_title": "城區風味選店",
+      "note": "",
+      "cards": [
+        {
+          "url": "https://travel.taichung.gov.tw/zh-tw/Shop/Consume/3721/",
+          "image": null,
+          "alt": "",
+          "number": "01",
+          "meta": "茶飲文化 · 西區",
+          "kicker": "",
+          "title": "春水堂・公益店",
+          "description": "以臺式泡沫紅茶文化為核心，在勤美綠園道附近找一處茶香與人文交會的休息站。",
+          "details": [
+            {
+              "label": "推薦",
+              "value": "珍珠奶茶、茶點"
+            },
+            {
+              "label": "地址",
+              "value": "公益路155巷17號"
+            }
+          ]
+        },
+        {
+          "url": "https://travel.taichung.gov.tw/zh-tw/shop/consume/3702",
+          "image": null,
+          "alt": "",
+          "number": "02",
+          "meta": "夜市小吃 · 北區",
+          "kicker": "",
+          "title": "半月燒・一中總店",
+          "description": "手工麵皮包入鐵板現炒餡料，外皮酥中帶Q，是一中商圈很有辨識度的現做小吃。",
+          "details": [
+            {
+              "label": "推薦",
+              "value": "現炒半月燒"
+            },
+            {
+              "label": "預算",
+              "value": "約 NT$45–60"
+            }
+          ]
+        },
+        {
+          "url": "https://travel.taichung.gov.tw/zh-tw/Shop/Consume/2495/",
+          "image": null,
+          "alt": "",
+          "number": "03",
+          "meta": "甜點冰品 · 北區",
+          "kicker": "",
+          "title": "一中豐仁冰",
+          "description": "牛奶冰淇淋、酸梅冰與蜜花豆組成鹹酸甜的老味道，一碗冰承載超過一甲子的城市記憶。",
+          "details": [
+            {
+              "label": "推薦",
+              "value": "招牌豐仁冰"
+            },
+            {
+              "label": "地址",
+              "value": "育才街3巷4號之6"
+            }
+          ]
+        },
+        {
+          "url": "https://travel.taichung.gov.tw/zh-tw/shop/consume/5084",
+          "image": null,
+          "alt": "",
+          "number": "04",
+          "meta": "伴手好禮 · 西區",
+          "kicker": "",
+          "title": "馨品鄉",
+          "description": "以夏威夷果仁手工牛軋糖聞名，另有椰棗夏威夷果、鳳梨酥等適合帶回家的臺中滋味。",
+          "details": [
+            {
+              "label": "推薦",
+              "value": "果仁牛軋糖"
+            },
+            {
+              "label": "地址",
+              "value": "民權路238號"
+            }
+          ]
+        }
+      ],
+      "more_url": ""
+    },
+    "routes": {
+      "advice": "行程時間含移動與基本停留；出發前請確認展館休館日、校園開放及店家最新營業資訊。",
+      "tabs": [
+        {
+          "key": "day",
+          "label": "一日遊",
+          "english": "ONE DAY"
+        },
+        {
+          "key": "two-days",
+          "label": "二日遊",
+          "english": "TWO DAYS"
+        },
+        {
+          "key": "bike",
+          "label": "鐵馬行",
+          "english": "CYCLING"
+        },
+        {
+          "key": "drive",
+          "label": "自駕遊",
+          "english": "ROAD TRIP"
+        }
+      ],
+      "plans": {
+        "day": {
+          "eyebrow": "ONE DAY JOURNEY",
+          "title": "城區一日，<br>剛剛好的相遇。",
+          "description": "以臺中車站為起點，步行搭配公車，把舊城、水岸、西區藝文與夜市串成一條順路行程。",
+          "meta": [
+            "大眾運輸＋步行",
+            "約 10 小時"
+          ],
+          "stops": [
+            [
+              "09:00",
+              "START",
+              "臺中車站・綠川",
+              "從舊站建築走到綠川水岸，先用一段輕鬆散步認識舊城入口。"
+            ],
+            [
+              "10:30",
+              "OLD TOWN",
+              "宮原眼科・第二市場",
+              "步行品嚐冰品，再到第二市場享用午餐；兩地之間約 15–20 分鐘腳程。"
+            ],
+            [
+              "13:30",
+              "ART WALK",
+              "國美館・審計新村",
+              "搭公車前往國美館，逛展後步行約 10 分鐘到審計新村。"
+            ],
+            [
+              "16:30",
+              "CITY GREEN",
+              "草悟道・PARK2",
+              "沿草悟道向北散步，在綠廊、選物店與咖啡空間之間休息。"
+            ],
+            [
+              "18:30",
+              "NIGHT",
+              "一中商圈",
+              "搭公車前往一中商圈，用豐仁冰、半月燒等小吃為旅程收尾。"
+            ]
+          ]
+        },
+        "two-days": {
+          "eyebrow": "TWO DAYS JOURNEY",
+          "title": "兩天慢遊，<br>讀懂城區新舊。",
+          "description": "第一天集中舊城與西區，第二天走北區、西屯；避免往返折返，也保留逛展與用餐時間。",
+          "meta": [
+            "公車＋捷運＋YouBike",
+            "2 天／每日約 8 小時"
+          ],
+          "stops": [
+            [
+              "09:00",
+              "OLD CITY",
+              "臺中車站・綠川・宮原眼科",
+              "DAY 1｜從車站周邊歷史建築與水岸開始，上午以步行探索舊城。",
+              "DAY 1"
+            ],
+            [
+              "11:30",
+              "LOCAL FOOD",
+              "第二市場",
+              "DAY 1｜在市場安排午餐，再沿柳川散步消化，前往西區。"
+            ],
+            [
+              "14:00",
+              "WEST DIST.",
+              "國美館・審計新村",
+              "DAY 1｜先逛國美館，再步行走訪審計新村與美術園道。"
+            ],
+            [
+              "17:00",
+              "GREEN WALK",
+              "草悟道・公益路",
+              "DAY 1｜沿綠廊散步，晚餐安排在公益路或勤美周邊。"
+            ],
+            [
+              "09:30",
+              "SCIENCE",
+              "科博館・植物園",
+              "DAY 2｜預留半天給展館與植物園，親子旅客可依興趣延長停留。",
+              "DAY 2"
+            ],
+            [
+              "13:30",
+              "LANDMARK",
+              "臺中國家歌劇院",
+              "DAY 2｜從市政府站轉乘公車或 YouBike，參觀曲牆空間及屋頂花園。"
+            ],
+            [
+              "16:30",
+              "SUNSET",
+              "秋紅谷",
+              "DAY 2｜由歌劇院步行約 15 分鐘抵達，休息並等待傍晚光線。"
+            ],
+            [
+              "18:30",
+              "NIGHT MARKET",
+              "逢甲夜市",
+              "DAY 2｜搭公車前往逢甲商圈，以夜市小吃結束兩日行程。"
+            ]
+          ]
+        },
+        "bike": {
+          "eyebrow": "CYCLING JOURNEY",
+          "title": "騎進街區，<br>收藏城市細節。",
+          "description": "以公共自行車串接城中城人文自行車路線與西區綠廊；平坦路段為主，過路口請下車牽行。",
+          "meta": [
+            "YouBike／自備單車",
+            "約 16–20 km"
+          ],
+          "stops": [
+            [
+              "09:00",
+              "RENT",
+              "臺中車站借車",
+              "確認胎壓與座高，從車站沿綠空鐵道 1908 向南暖身。"
+            ],
+            [
+              "09:40",
+              "EAST DIST.",
+              "綠空鐵道・帝國製糖廠",
+              "沿鐵道綠廊騎到湧泉公園，園區內以牽車散步為主。"
+            ],
+            [
+              "11:30",
+              "OLD TOWN",
+              "第二市場午餐",
+              "回到中區停車用餐，市場周邊人流密集，建議使用鄰近租賃站還車再借。"
+            ],
+            [
+              "13:30",
+              "RIVER",
+              "柳川水岸",
+              "沿外圍道路騎行，水岸步道內依現場標示牽車，接續前往國美館。"
+            ],
+            [
+              "15:00",
+              "ART & GREEN",
+              "國美館・審計新村・草悟道",
+              "串接西區藝文景點；人行空間與市集區請下車牽行。"
+            ],
+            [
+              "17:30",
+              "RETURN",
+              "市民廣場周邊還車",
+              "於勤美周邊租賃站還車，晚餐可接續公益路或一中商圈。"
+            ]
+          ]
+        },
+        "drive": {
+          "eyebrow": "ROAD TRIP",
+          "title": "自駕穿城，<br>追一日建築光影。",
+          "description": "參考官方建築藝文一日遊，從西側校園一路進城，最後到望高寮看夜景；各站保留找停車位的緩衝。",
+          "meta": [
+            "自駕",
+            "約 35 km／10 小時"
+          ],
+          "stops": [
+            [
+              "09:00",
+              "CAMPUS",
+              "東海大學・路思義教堂",
+              "上午光線適合看建築；車輛依校方規定停放，校園內以步行移動。"
+            ],
+            [
+              "11:30",
+              "URBAN PARK",
+              "中央公園",
+              "前往水湳園區散步，午餐可安排中央公園或逢甲周邊。"
+            ],
+            [
+              "14:30",
+              "LANDMARK",
+              "臺中國家歌劇院",
+              "使用周邊停車場，預留約 1.5 小時參觀建築與展覽空間。"
+            ],
+            [
+              "16:30",
+              "CREATIVE",
+              "審計新村・草悟道",
+              "開車約 15–25 分鐘；假日車位較緊張，建議停外圍停車場再步行。"
+            ],
+            [
+              "18:30",
+              "NIGHT VIEW",
+              "望高寮夜景公園",
+              "傍晚駕車上大肚台地看夕陽與夜景；山區道路減速，避免違規臨停。"
+            ]
+          ]
+        }
+      }
+    },
+    "next": {
+      "label": "繼續探索臺中",
+      "target": "四大區域 →"
+    },
+    "home": {
+      "jump_label": "走訪・城區",
+      "card_image": "assets/images/Taichung_images_城區_01.jpg",
+      "card_alt": "綠意盎然的臺中城區景點",
+      "tagline": "建築・城區",
+      "intro": "漫步城區，感受歷史與現代交織的城市風景。"
+    },
+    "journal": {
+      "label": "漫遊・八種靈感",
+      "intro": "八種旅行靈感，從老城散步、建築藝術到水岸夜色，帶你用自己的步調讀懂臺中城區。"
+    },
+    "is_published": true,
+    "sort_order": 1,
+    "view_count": 0,
+    "updated_at": "2026-08-10T07:07:41.863Z"
+  },
+  {
+    "id": 2,
+    "name": "屯區",
+    "english_name": "TUN DISTRICT",
+    "theme_color": "#526b55",
+    "slug": "tun",
+    "body_class": "city-page tun-page",
+    "title": "循跡・屯區｜臺中好地 Fun",
+    "description": "循跡臺中屯區，走訪烏日、大里、霧峰與太平的古蹟、藝文、步道與地方風景。",
+    "hero": {
+      "eyebrow": "TAICHUNG · TUN DISTRICT",
+      "title": "循跡・屯區",
+      "subtitle": "沿著山麓與老聚落，遇見歷史、藝術與田園日常",
+      "slides": [
+        {
+          "image": "assets/images/HeroPage_屯區_01.jpg",
+          "alt": "烏日聚奎居中西合璧歷史建築"
+        },
+        {
+          "image": "assets/images/HeroPage_屯區_02.jpg",
+          "alt": "霧峰萊園水景與紅花"
+        },
+        {
+          "image": "assets/images/HeroPage_屯區_03.jpg",
+          "alt": "光復新村文創聚落街景"
+        },
+        {
+          "image": "assets/images/HeroPage_屯區_04.jpg",
+          "alt": "光復新村白色老屋與藝文空間"
+        },
+        {
+          "image": "assets/images/HeroPage_屯區_05.jpg",
+          "alt": "知高圳林蔭水圳步道"
+        },
+        {
+          "image": "assets/images/HeroPage_屯區_06.jpg",
+          "alt": "大里菩薩寺綠意庭園入口"
+        },
+        {
+          "image": "assets/images/HeroPage_屯區_07.jpg",
+          "alt": "亞洲大學現代美術館與校園空拍"
+        }
+      ]
+    },
+    "subnav": [
+      {
+        "target": "story",
+        "label": "屯區印象",
+        "english": "LOCAL STORY",
+        "description": "認識・四區風景"
+      },
+      {
+        "target": "guide",
+        "label": "旅行攻略",
+        "english": "TRAVEL NOTES",
+        "description": "探索・八種靈感"
+      },
+      {
+        "target": "spots",
+        "label": "必遊景點",
+        "english": "HIGHLIGHTS",
+        "description": "走訪・人氣地標"
+      },
+      {
+        "target": "flavors",
+        "label": "地方風味",
+        "english": "LOCAL FLAVORS",
+        "description": "品嚐・農產滋味"
+      },
+      {
+        "target": "route",
+        "label": "推薦遊程",
+        "english": "ONE DAY TRIP",
+        "description": "出發・一日循跡"
+      }
+    ],
+    "story": {
+      "eyebrow": "MEET THE DISTRICT",
+      "title": "四座城鎮，\n一條山麓生活線。",
+      "paragraphs": [
+        "屯區位在臺中南側的山麓地帶，由烏日、大里、霧峰與太平串起。這裡既是重要交通門戶，也保留農村地景、產業記憶與深厚的人文底蘊。",
+        "從烏日的交通節點與圳道綠意、大里的藝術街區，到霧峰的林家宅園與地震教育場域，再沿太平的山路走進森林、公園與休閒農業區，一趟旅行就能切換多種風景。"
+      ],
+      "districts": [
+        "烏日區",
+        "大里區",
+        "霧峰區",
+        "太平區"
+      ]
+    },
+    "mosaic": {
+      "eyebrow": "TUN SCENES",
+      "title": "古厝、藝文與綠野，\n收藏屯區的慢生活。",
+      "intro": "把旅程放慢，從歷史宅園走進創意聚落，再循著圳道與山徑親近自然；每一站，都看見屯區不同的生活紋理。",
+      "items": [
+        {
+          "alignment": "left",
+          "image": "assets/images/Taichung_images_屯區_02.jpg",
+          "alt": "國定古蹟霧峰林家萊園水景",
+          "number": "01",
+          "kicker": "HERITAGE",
+          "caption": "萊園水榭，收藏百年風華"
+        },
+        {
+          "alignment": "right",
+          "image": "assets/images/Taichung_images_屯區_06.jpg",
+          "alt": "光復新村入口與眷村街景",
+          "number": "02",
+          "kicker": "CREATIVE VILLAGE",
+          "caption": "老眷舍裡，新創意正發芽"
+        },
+        {
+          "alignment": "offset",
+          "image": "assets/images/Taichung_images_屯區_04.jpg",
+          "alt": "知高圳林蔭水圳步道",
+          "number": "03",
+          "kicker": "WATERWAY",
+          "caption": "沿百年水圳，走進林蔭深處"
+        }
+      ]
+    },
+    "guide": {
+      "eyebrow": "TRAVEL NOTES",
+      "title": "挖掘屯區靈感",
+      "note": "親子、藝文、古蹟與戶外風景，一次找到適合自己的旅行節奏。"
+    },
+    "spots": {
+      "eyebrow": "TUN HIGHLIGHTS",
+      "title": "屯區必遊",
+      "more_url": "https://travel.taichung.gov.tw/zh-tw/attractions/list?extra_region=taiping%2Cdali%2Cwufeng%2Cwuri",
+      "cards": [
+        {
+          "url": "https://travel.taichung.gov.tw/zh-tw/attractions/intro/1500",
+          "image": "assets/images/Taichung_images_屯區_01-HD.jpg",
+          "alt": "烏日聚奎居紅磚拱廊與西式立面",
+          "number": "",
+          "meta": "",
+          "kicker": "HERITAGE · WURI",
+          "title": "聚奎居",
+          "description": "這座日治時期落成的中西合璧宅邸，以傳統三合院配置融合西式拱廊、立面與閩南紅磚，展現烏日獨特的歷史建築風貌。",
+          "details": [],
+          "slug": "tun-highlight-1",
+          "sort_order": 1
+        },
+        {
+          "url": "https://travel.taichung.gov.tw/zh-tw/attractions/intro/962",
+          "image": "assets/images/Taichung_images_屯區_06.jpg",
+          "alt": "光復新村入口與眷村街景",
+          "number": "",
+          "meta": "",
+          "kicker": "CREATIVE · WUFENG",
+          "title": "光復新村",
+          "description": "老眷舍化身文創聚落，紅磚巷弄、獨立店鋪與假日人潮，拼出霧峰年輕而懷舊的一面。",
+          "details": [],
+          "slug": "tun-highlight-2",
+          "sort_order": 2
+        },
+        {
+          "url": "https://travel.taichung.gov.tw/zh-tw/attractions/intro/787",
+          "image": "assets/images/Taichung_images_屯區_05.jpg",
+          "alt": "知高圳木棧道與自然綠意",
+          "number": "",
+          "meta": "",
+          "kicker": "NATURE · WURI",
+          "title": "知高圳步道",
+          "description": "沿水圳、竹林與田野慢行，在平緩步道上聽流水、賞綠蔭，感受烏日大肚山麓的自然氣息。",
+          "details": [],
+          "slug": "tun-highlight-3",
+          "sort_order": 3
+        }
+      ]
+    },
+    "flavors": {
+      "banner_image": "assets/images/Taichung_images_屯區_12.jpg",
+      "eyebrow": "LOCAL FLAVORS",
+      "title": "從田野到餐桌，\n嚐一口屯區風土。",
+      "intro": "太平枇杷、霧峰菇蕈、大里芋仔冰與地方家常味，都把山麓農產和城鎮記憶收進味蕾。順著旅程停下來，讓食物成為認識屯區的另一條路。",
+      "tags": [],
+      "collection_eyebrow": "TASTE THE DISTRICT",
+      "collection_title": "屯區風味提案",
+      "note": "",
+      "cards": [
+        {
+          "url": "https://travel.taichung.gov.tw/zh-tw/shop/consume/5285",
+          "image": null,
+          "alt": "",
+          "number": "01",
+          "meta": "DINING · 霧峰",
+          "kicker": "",
+          "title": "議蘆會館",
+          "description": "位於原省議會紀念園區，結合古蹟會館、餐廳與咖啡空間，適合安排在霧峰人文散策之間。",
+          "details": [
+            {
+              "label": "營業",
+              "value": "08:00–21:00"
+            },
+            {
+              "label": "地址",
+              "value": "霧峰區中正路734號"
+            }
+          ]
+        },
+        {
+          "url": "https://travel.taichung.gov.tw/zh-tw/shop/consume/4274",
+          "image": null,
+          "alt": "",
+          "number": "02",
+          "meta": "DESSERT · 大里",
+          "kicker": "",
+          "title": "美方芋仔冰",
+          "description": "以新鮮食材製作，不添加香料與色素；綿密濃郁的芋仔冰，吃得到細緻口感與食材顆粒。",
+          "details": [
+            {
+              "label": "營業",
+              "value": "08:00–21:00"
+            },
+            {
+              "label": "地址",
+              "value": "大里區中興路一段93號"
+            }
+          ]
+        },
+        {
+          "url": "https://travel.taichung.gov.tw/zh-tw/shop/consume/5187",
+          "image": null,
+          "alt": "",
+          "number": "03",
+          "meta": "TAIWAN TEA · 烏日",
+          "kicker": "",
+          "title": "無藏茗茶",
+          "description": "以三代茶業經驗為基礎，將臺灣茶、生活美學與新零售體驗結合，適合喜愛茶文化的旅人。",
+          "details": [
+            {
+              "label": "營業",
+              "value": "週一至週五 09:00–18:00"
+            },
+            {
+              "label": "地址",
+              "value": "烏日區高鐵一路268號3樓之3"
+            }
+          ]
+        },
+        {
+          "url": "https://travel.taichung.gov.tw/zh-tw/shop/consume/4129",
+          "image": null,
+          "alt": "",
+          "number": "04",
+          "meta": "SOUVENIR · 烏日",
+          "kicker": "",
+          "title": "裕珍馨・烏日高鐵專櫃",
+          "description": "在高鐵站選購層次酥香的奶油酥餅、紫玉酥與鳳梨酥，為屯區旅程帶一份臺中糕餅回家。",
+          "details": [
+            {
+              "label": "營業",
+              "value": "09:00–21:00"
+            },
+            {
+              "label": "地址",
+              "value": "烏日區站區二路8號2樓"
+            }
+          ]
+        }
+      ],
+      "more_url": ""
+    },
+    "routes": {
+      "advice": "屯區景點分布較廣，建議自駕或搭配計程車；出發前請確認展館休館日、預約規定與步道天候。",
+      "tabs": [
+        {
+          "key": "day",
+          "label": "一日遊",
+          "english": "ONE DAY"
+        },
+        {
+          "key": "two-days",
+          "label": "二日遊",
+          "english": "TWO DAYS"
+        },
+        {
+          "key": "nature",
+          "label": "親自然",
+          "english": "NATURE"
+        },
+        {
+          "key": "culture",
+          "label": "人文行",
+          "english": "CULTURE"
+        }
+      ],
+      "plans": {
+        "day": {
+          "eyebrow": "ONE DAY JOURNEY",
+          "title": "屯區一日，<br>循著故事慢慢走。",
+          "description": "從霧峰歷史與藝術出發，午後轉進大里與太平綠地，感受屯區新舊交會。",
+          "meta": [
+            "自駕／包車",
+            "約 9 小時"
+          ],
+          "stops": [
+            [
+              "09:00",
+              "HERITAGE",
+              "霧峰林家宮保第園區",
+              "從傳統宅園與歷史展陳認識霧峰人文，建議事先確認導覽場次。"
+            ],
+            [
+              "11:30",
+              "CREATIVE",
+              "光復新村",
+              "逛老眷舍、文創店家與街角小景，並在周邊安排午餐。"
+            ],
+            [
+              "14:00",
+              "ART",
+              "亞洲大學現代美術館",
+              "欣賞清水模建築與當期展覽；週一通常休館，出發前請查詢公告。"
+            ],
+            [
+              "16:00",
+              "OLD STREET",
+              "大里老街",
+              "散步街區、尋找地方小吃，感受大里的生活節奏。"
+            ],
+            [
+              "17:30",
+              "GREEN",
+              "坪林森林公園",
+              "在大片草地與林蔭中放慢腳步，為一日行程輕鬆收尾。"
+            ]
+          ]
+        },
+        "two-days": {
+          "eyebrow": "TWO DAYS JOURNEY",
+          "title": "兩天四區，<br>慢慢讀懂屯區。",
+          "description": "第一天聚焦霧峰、大里的人文藝術；第二天走烏日圳道與太平山麓，減少往返。",
+          "meta": [
+            "自駕",
+            "2 天／每日約 8 小時"
+          ],
+          "stops": [
+            [
+              "09:00",
+              "HISTORY",
+              "霧峰林家宮保第",
+              "DAY 1｜上午走訪歷史宅園，為屯區旅程建立人文脈絡。",
+              "DAY 1"
+            ],
+            [
+              "11:30",
+              "VILLAGE",
+              "光復新村",
+              "DAY 1｜在老眷村吃午餐、逛店家，保留拍照與休息時間。"
+            ],
+            [
+              "14:00",
+              "MUSEUM",
+              "921地震教育園區",
+              "DAY 1｜透過斷層與校舍遺址理解土地記憶。"
+            ],
+            [
+              "16:00",
+              "ART",
+              "亞洲大學現代美術館",
+              "DAY 1｜以建築與藝術展覽結束第一天。"
+            ],
+            [
+              "09:00",
+              "WATERWAY",
+              "知高圳步道",
+              "DAY 2｜趁上午涼爽沿水圳散步，雨後注意路面。",
+              "DAY 2"
+            ],
+            [
+              "12:00",
+              "DALI",
+              "大里老街・午餐",
+              "DAY 2｜品嚐地方小吃，再前往太平。"
+            ],
+            [
+              "14:30",
+              "PARK",
+              "坪林森林公園",
+              "DAY 2｜安排草地野餐或親子活動。"
+            ],
+            [
+              "16:30",
+              "COUNTRYSIDE",
+              "頭汴坑休閒農業區",
+              "DAY 2｜沿山路看田園風景，依季節體驗採果或農遊。"
+            ]
+          ]
+        },
+        "nature": {
+          "eyebrow": "NATURE JOURNEY",
+          "title": "靠近山野，<br>讓呼吸慢下來。",
+          "description": "以烏日水圳和太平山麓為主軸，適合喜歡步道、田野與季節農遊的旅人。",
+          "meta": [
+            "自駕＋步行",
+            "約 7–8 小時"
+          ],
+          "stops": [
+            [
+              "08:30",
+              "TRAIL",
+              "知高圳步道",
+              "沿圳道樹蔭散步，欣賞田野與鐵道風景。"
+            ],
+            [
+              "11:00",
+              "PICNIC",
+              "坪林森林公園",
+              "在大草原休息或野餐，親子旅客可多留一些時間。"
+            ],
+            [
+              "13:30",
+              "FARM",
+              "頭汴坑休閒農業區",
+              "循山路進入農村地景，依當季活動安排採果體驗。"
+            ],
+            [
+              "16:30",
+              "SCENERY",
+              "太平山麓慢行",
+              "傍晚沿山麓小旅行，遇天候不佳請提早下山。"
+            ]
+          ]
+        },
+        "culture": {
+          "eyebrow": "CULTURE JOURNEY",
+          "title": "一日人文，<br>從古宅走到當代。",
+          "description": "把霧峰最具代表性的歷史、眷村、教育與現代藝術場域串成一條文化路線。",
+          "meta": [
+            "自駕／計程車",
+            "約 8 小時"
+          ],
+          "stops": [
+            [
+              "09:00",
+              "HERITAGE",
+              "霧峰林家宮保第園區",
+              "細看傳統宅園的空間格局、木雕與彩繪。"
+            ],
+            [
+              "11:30",
+              "VILLAGE",
+              "光復新村",
+              "在老眷村聚落午餐，逛青年創業店家。"
+            ],
+            [
+              "13:30",
+              "MEMORY",
+              "921地震教育園區",
+              "從真實遺址理解地震、防災與重建。"
+            ],
+            [
+              "16:00",
+              "MODERN ART",
+              "亞洲大學現代美術館",
+              "在安藤忠雄建築與當代展覽之間結束旅程。"
+            ]
+          ]
+        }
+      }
+    },
+    "next": {
+      "label": "繼續探索臺中",
+      "target": "四大區域 →"
+    },
+    "home": {
+      "jump_label": "循跡・屯區",
+      "card_image": "assets/images/Taichung_images_屯區_01-HD.jpg",
+      "card_alt": "臺中屯區自然與人文景觀",
+      "tagline": "循跡・屯區",
+      "intro": "走進屯區，感受山城與人文共存的靜謐風貌。"
+    },
+    "journal": {
+      "label": "山城・近郊慢旅",
+      "intro": "八種旅行靈感，從烏日古蹟與鐵道、霧峰園林，到大里藝文與山麓水圳，循著自己的步調閱讀屯區。"
+    },
+    "is_published": true,
+    "sort_order": 2,
+    "view_count": 0,
+    "updated_at": "2026-08-10T07:07:41.863Z"
+  },
+  {
+    "id": 3,
+    "name": "海線",
+    "english_name": "COAST LINE",
+    "theme_color": "#376a78",
+    "slug": "coast",
+    "body_class": "city-page coast-page",
+    "title": "悠遊・海線｜臺中好地 Fun",
+    "description": "悠遊臺中海線：從高美濕地、梧棲漁港到大甲信仰與濱海風光，感受八個海線行政區的地方魅力。",
+    "hero": {
+      "eyebrow": "TAICHUNG · COASTLINE",
+      "title": "悠遊・海線",
+      "subtitle": "迎著微鹹海風，把潮汐、信仰與小鎮風景收進旅程",
+      "slides": [
+        {
+          "image": "assets/images/HeroPage_海線_01.jpg",
+          "alt": "麗水漁港藍白地中海風觀景平台"
+        },
+        {
+          "image": "assets/images/HeroPage_海線_02.jpg",
+          "alt": "梧棲港遊艇碼頭"
+        },
+        {
+          "image": "assets/images/HeroPage_海線_03.jpg",
+          "alt": "大甲鎮瀾宮廟殿內景"
+        },
+        {
+          "image": "assets/images/HeroPage_海線_04.jpg",
+          "alt": "臺鐵舊山線大安溪鐵橋"
+        },
+        {
+          "image": "assets/images/HeroPage_海線_05.jpg",
+          "alt": "外埔忘憂谷金黃稻田風景"
+        },
+        {
+          "image": "assets/images/HeroPage_海線_06.jpg",
+          "alt": "高美濕地風車夕陽"
+        },
+        {
+          "image": "assets/images/HeroPage_海線_07.jpg",
+          "alt": "龍井東海別墅夜市街景"
+        }
+      ]
+    },
+    "subnav": [
+      {
+        "target": "story",
+        "label": "海線印象",
+        "english": "COAST STORY",
+        "description": "認識・八區風景"
+      },
+      {
+        "target": "guide",
+        "label": "旅行攻略",
+        "english": "TRAVEL NOTES",
+        "description": "漫遊・八種靈感"
+      },
+      {
+        "target": "spots",
+        "label": "必遊景點",
+        "english": "HIGHLIGHTS",
+        "description": "探索・海岸地標"
+      },
+      {
+        "target": "flavors",
+        "label": "地方風味",
+        "english": "LOCAL FLAVORS",
+        "description": "品嚐・海線日常"
+      },
+      {
+        "target": "route",
+        "label": "推薦遊程",
+        "english": "ONE DAY TRIP",
+        "description": "出發・向海旅行"
+      }
+    ],
+    "story": {
+      "eyebrow": "MEET THE COAST",
+      "title": "一條海岸，\n八種地方風景。",
+      "paragraphs": [
+        "臺中海線從大安一路向南延伸至大肚，潮間帶、漁港、丘陵與小鎮緊密相連。高美濕地的夕陽與風車是旅人熟悉的畫面，梧棲漁港的鮮味、大甲鎮瀾宮的香火，則寫下海線最鮮明的日常。",
+        "往內陸走，外埔稻田、清水眷村、沙鹿街區、龍井藝術聚落與追分車站各自保留不同故事。八個行政區適合以鐵道、公車、單車或自駕串連，在海風與田野之間放慢腳步。"
+      ],
+      "districts": [
+        "大安",
+        "大甲",
+        "外埔",
+        "清水",
+        "梧棲",
+        "沙鹿",
+        "龍井",
+        "大肚"
+      ]
+    },
+    "mosaic": {
+      "eyebrow": "COASTAL SCENES",
+      "title": "潮汐、港灣與信仰，\n拼成海線的生活風景。",
+      "intro": "從濕地夕照到漁港藍海，再走進香火繚繞的老街。三種海線表情，讓旅行在自然、產業與人文之間自在切換。",
+      "items": [
+        {
+          "alignment": "left",
+          "image": "assets/images/Taichung_images_海線_02.jpg",
+          "alt": "高美濕地夕陽與風力發電機",
+          "number": "01",
+          "kicker": "TIDELAND",
+          "caption": "潮汐映著夕陽，海岸慢慢發光"
+        },
+        {
+          "alignment": "right",
+          "image": "assets/images/Taichung_images_海線_03.jpg",
+          "alt": "梧棲港遊艇碼頭與藍色海面",
+          "number": "02",
+          "kicker": "HARBOR",
+          "caption": "港灣日常，收藏一抹海的藍"
+        },
+        {
+          "alignment": "offset",
+          "image": "assets/images/Taichung_images_海線_04.jpg",
+          "alt": "大甲鎮瀾宮與紅色燈籠",
+          "number": "03",
+          "kicker": "FAITH",
+          "caption": "百年香火，守護小鎮歲月"
+        }
+      ]
+    },
+    "guide": {
+      "eyebrow": "TRAVEL NOTES",
+      "title": "浮現海線靈感",
+      "note": "從清晨到夕陽，找到你的向海步調。"
+    },
+    "spots": {
+      "eyebrow": "COAST HIGHLIGHTS",
+      "title": "海線必遊",
+      "more_url": "https://travel.taichung.gov.tw/zh-tw/attractions/list?extra_region=dadu%2Cshalu%2Clongjing%2Cwuqi%2Cqingshui%2Cdajia%2Cwaipu%2Cda-an",
+      "cards": [
+        {
+          "url": "https://travel.taichung.gov.tw/zh-tw/attractions/intro/54",
+          "image": "assets/images/Taichung_images_海線_02.jpg",
+          "alt": "高美濕地夕陽與風車",
+          "number": "",
+          "meta": "",
+          "kicker": "WETLAND · QINGSHUI",
+          "title": "高美濕地",
+          "description": "在潮間帶觀察豐富生態，看夕陽沿著木棧道與風車群緩緩落下，遇見臺中海岸最經典的風景。",
+          "details": [],
+          "slug": "coast-highlight-1",
+          "sort_order": 1
+        },
+        {
+          "url": "https://travel.taichung.gov.tw/zh-tw/attractions/intro/10",
+          "image": "assets/images/Taichung_images_海線_03.jpg",
+          "alt": "梧棲港遊艇與海面",
+          "number": "",
+          "meta": "",
+          "kicker": "HARBOR · WUQI",
+          "title": "梧棲觀光漁港",
+          "description": "走進熱鬧漁市挑選新鮮漁獲，品嚐現做海味，再到港邊吹風看船，感受海港日常。",
+          "details": [],
+          "slug": "coast-highlight-2",
+          "sort_order": 2
+        },
+        {
+          "url": "https://travel.taichung.gov.tw/zh-tw/attractions/intro/1841",
+          "image": "assets/images/Taichung_images_海線_16.jpg",
+          "alt": "海墘老街的卵石牆、紅磚巷道與遠方風車",
+          "number": "",
+          "meta": "",
+          "kicker": "HERITAGE · DA-AN",
+          "title": "海墘老街",
+          "description": "穿過卵石與紅磚砌成的老街巷道，閱讀大安濱海聚落的生活記憶，遠方風車也為古樸街景添上現代輪廓。",
+          "details": [],
+          "slug": "coast-highlight-3",
+          "sort_order": 3
+        }
+      ]
+    },
+    "flavors": {
+      "banner_image": "assets/images/Taichung_images_海線_06.jpg",
+      "eyebrow": "LOCAL FLAVORS",
+      "title": "一口，嚐進海線的日常。",
+      "intro": "從東海別墅夜市的街邊小吃、梧棲漁港直送的海鮮，到大甲奶油酥餅與沙鹿肉圓仔湯，海線風味連著土地、產業與小鎮日常。",
+      "tags": [],
+      "collection_eyebrow": "TASTE THE COAST",
+      "collection_title": "海線風味選店",
+      "note": "",
+      "cards": [
+        {
+          "url": "https://travel.taichung.gov.tw/zh-tw/attractions/intro/10",
+          "image": null,
+          "alt": "",
+          "number": "01",
+          "meta": "港口海味 · 梧棲",
+          "kicker": "",
+          "title": "梧棲觀光漁港",
+          "description": "從魚市場挑選當日漁獲，現場品嚐炸海鮮、烤物與生鮮料理，是海線最直接的鮮味體驗。",
+          "details": [
+            {
+              "label": "推薦",
+              "value": "當季海鮮、炸物"
+            },
+            {
+              "label": "特色",
+              "value": "漁市採買、港邊散步"
+            }
+          ]
+        },
+        {
+          "url": "https://travel.taichung.gov.tw/zh-tw/shop/consume/4124",
+          "image": null,
+          "alt": "",
+          "number": "02",
+          "meta": "伴手糕餅 · 大甲",
+          "kicker": "",
+          "title": "裕珍馨・蔣公店",
+          "description": "以層層酥皮與奶香聞名，奶油酥餅承接大甲糕餅技藝，也是不少旅人返程前必帶的伴手禮。",
+          "details": [
+            {
+              "label": "推薦",
+              "value": "奶油酥餅、紫玉酥"
+            },
+            {
+              "label": "地址",
+              "value": "蔣公路131號"
+            }
+          ]
+        },
+        {
+          "url": "https://travel.taichung.gov.tw/zh-tw/shop/consume/663",
+          "image": null,
+          "alt": "",
+          "number": "03",
+          "meta": "咖啡美食 · 龍井",
+          "kicker": "",
+          "title": "艾凡里咖啡美食",
+          "description": "在東海藝術街的巷弄裡，以咖啡、餐點與溫暖空間延續街區悠閒的人文氣息。",
+          "details": [
+            {
+              "label": "推薦",
+              "value": "咖啡、特色餐點"
+            },
+            {
+              "label": "地址",
+              "value": "藝術街33號"
+            }
+          ]
+        },
+        {
+          "url": "https://travel.taichung.gov.tw/zh-tw/shop/consume/4105",
+          "image": null,
+          "alt": "",
+          "number": "04",
+          "meta": "古早冰品 · 大甲",
+          "kicker": "",
+          "title": "美洲冰品",
+          "description": "逛完鎮瀾宮與蔣公路商圈，來一份清涼冰品，讓簡單甜味成為小鎮散策的休息站。",
+          "details": [
+            {
+              "label": "推薦",
+              "value": "傳統冰品"
+            },
+            {
+              "label": "區域",
+              "value": "大甲商圈"
+            }
+          ]
+        }
+      ],
+      "more_url": ""
+    },
+    "routes": {
+      "advice": "潮間帶與濱海設施受季節、潮汐及天候影響；出發前請確認開放時間、交通與店家最新資訊。",
+      "tabs": [
+        {
+          "key": "day",
+          "label": "一日遊",
+          "english": "ONE DAY"
+        },
+        {
+          "key": "two-days",
+          "label": "二日遊",
+          "english": "TWO DAYS"
+        },
+        {
+          "key": "bike",
+          "label": "鐵馬行",
+          "english": "CYCLING"
+        },
+        {
+          "key": "drive",
+          "label": "自駕遊",
+          "english": "ROAD TRIP"
+        }
+      ],
+      "plans": {
+        "day": {
+          "eyebrow": "ONE DAY JOURNEY",
+          "title": "海線一日，<br>追著夕陽前進。",
+          "description": "從大甲信仰小鎮出發，沿海岸一路走到高美濕地，把香火、海味與夕照排進同一天。",
+          "meta": [
+            "大眾運輸＋步行",
+            "約 10 小時"
+          ],
+          "stops": [
+            [
+              "09:00",
+              "FAITH",
+              "大甲鎮瀾宮",
+              "從百年廟宇與蔣公路商圈開始，感受小鎮晨間節奏。"
+            ],
+            [
+              "11:30",
+              "OLD TOWN",
+              "清水老街・眷村園區",
+              "走訪老街與歷史空間，品嚐一碗在地米糕。"
+            ],
+            [
+              "14:00",
+              "HARBOR",
+              "梧棲觀光漁港",
+              "逛漁市、嚐海鮮，到港邊吹一會兒海風。"
+            ],
+            [
+              "16:30",
+              "SUNSET",
+              "高美濕地",
+              "依潮汐安排木棧道散步，等待夕陽染亮潮間帶。"
+            ],
+            [
+              "19:00",
+              "NIGHT",
+              "沙鹿商圈",
+              "以肉圓仔湯與街邊小吃，為向海的一天收尾。"
+            ]
+          ]
+        },
+        "two-days": {
+          "eyebrow": "TWO DAYS JOURNEY",
+          "title": "兩天一夜，<br>讀懂海岸與小鎮。",
+          "description": "第一天沿北海線感受信仰與田野，第二天從港灣走向濕地，讓旅程保留更多停留。",
+          "meta": [
+            "鐵道＋公車＋步行",
+            "2 天 1 夜"
+          ],
+          "stops": [
+            [
+              "09:00",
+              "FAITH",
+              "大甲鎮瀾宮・蔣公路",
+              "DAY 1｜參拜後逛商圈，嚐糕餅與小吃。",
+              "DAY 1"
+            ],
+            [
+              "13:30",
+              "COUNTRYSIDE",
+              "外埔忘憂谷",
+              "DAY 1｜沿田間小路散步，欣賞季節農村風景。"
+            ],
+            [
+              "16:00",
+              "SEASIDE",
+              "大安濱海樂園",
+              "DAY 1｜到海邊散步看晚霞，可依行程安排濱海住宿。"
+            ],
+            [
+              "09:30",
+              "ART",
+              "港區藝術中心",
+              "DAY 2｜從展覽與園林建築開始清水藝文散策。",
+              "DAY 2"
+            ],
+            [
+              "12:30",
+              "HARBOR",
+              "梧棲觀光漁港",
+              "DAY 2｜在漁市享用海鮮午餐，沿港邊走走。"
+            ],
+            [
+              "15:00",
+              "OCEAN",
+              "台中海洋館",
+              "DAY 2｜認識臺中河川與海洋生態，留意預約與開放資訊。"
+            ],
+            [
+              "17:30",
+              "SUNSET",
+              "高美濕地",
+              "DAY 2｜以潮間帶夕陽為兩天旅程收尾。"
+            ]
+          ]
+        },
+        "bike": {
+          "eyebrow": "CYCLING JOURNEY",
+          "title": "迎風踩踏，<br>沿著港灣去旅行。",
+          "description": "以清水與梧棲為核心，串連文化園區、港區與濱海景觀；請依體力與風勢調整路線。",
+          "meta": [
+            "自行車",
+            "約 22–28 公里"
+          ],
+          "stops": [
+            [
+              "08:30",
+              "START",
+              "清水車站",
+              "檢查車況與補給，從海線鐵道小鎮出發。"
+            ],
+            [
+              "09:00",
+              "HERITAGE",
+              "清水眷村文化園區",
+              "在老屋與展覽空間停留，閱讀眷村生活記憶。"
+            ],
+            [
+              "10:30",
+              "ART",
+              "港區藝術中心",
+              "穿過林蔭與園區，安排一段藝文休息。"
+            ],
+            [
+              "12:30",
+              "HARBOR",
+              "梧棲觀光漁港",
+              "享用海鮮午餐，補充午後騎行體力。"
+            ],
+            [
+              "15:30",
+              "COAST",
+              "高美濕地周邊",
+              "沿海岸迎風前進，在遊客中心附近停車步行。"
+            ],
+            [
+              "17:30",
+              "RETURN",
+              "清水市區",
+              "依日落時間與天候提早返程，避免夜間濱海騎行。"
+            ]
+          ]
+        },
+        "drive": {
+          "eyebrow": "ROAD TRIP",
+          "title": "一路向海，<br>收藏八區風景。",
+          "description": "自駕串連較分散的北海線景點，從大甲信仰、外埔田野一路走到港灣與濕地夕照。",
+          "meta": [
+            "自駕",
+            "約 55 公里・10 小時"
+          ],
+          "stops": [
+            [
+              "08:30",
+              "FAITH",
+              "大甲鎮瀾宮",
+              "早晨參拜並逛蔣公路商圈，避開午後人潮。"
+            ],
+            [
+              "10:30",
+              "HILLS",
+              "鐵砧山風景特定區",
+              "登高散步，從綠意與歷史遺跡認識大甲。"
+            ],
+            [
+              "12:30",
+              "COUNTRYSIDE",
+              "外埔忘憂谷",
+              "沿田野短暫停留，拍下季節限定的稻田景色。"
+            ],
+            [
+              "14:30",
+              "HARBOR",
+              "梧棲觀光漁港",
+              "吃海鮮、逛漁市，再到港區吹風。"
+            ],
+            [
+              "17:00",
+              "SUNSET",
+              "高美濕地",
+              "預留停車與步行時間，依潮汐欣賞濕地夕陽。"
+            ],
+            [
+              "19:30",
+              "NIGHT",
+              "沙鹿商圈",
+              "以在地小吃結束行程，再從容返家。"
+            ]
+          ]
+        }
+      }
+    },
+    "next": {
+      "label": "繼續探索臺中",
+      "target": "四大區域 →"
+    },
+    "home": {
+      "jump_label": "悠遊・海線",
+      "card_image": "assets/images/Taichung_images_海線_01.jpg",
+      "card_alt": "臺中海線風景",
+      "tagline": "悠遊・海線",
+      "intro": "迎著海風，感受山海與天空交織的遼闊想像。"
+    },
+    "journal": {
+      "label": "海風・夕陽散策",
+      "intro": "八種向海而行的旅行靈感，從濕地夕陽、港町鮮味到田野、鐵道與藝文風景，收藏海線遼闊又細膩的日常。"
+    },
+    "is_published": true,
+    "sort_order": 3,
+    "view_count": 0,
+    "updated_at": "2026-08-10T07:07:41.863Z"
+  },
+  {
+    "id": 4,
+    "name": "山線",
+    "english_name": "MOUNTAIN LINE",
+    "theme_color": "#355f4b",
+    "slug": "mountain",
+    "body_class": "city-page mountain-page",
+    "title": "尋幽・山線｜臺中好地 Fun",
+    "description": "尋幽臺中山線：沿舊山線鐵道、單車綠廊、花園農場與高山溫泉，探索九個山線行政區的自然與人文風景。",
+    "hero": {
+      "eyebrow": "TAICHUNG · MOUNTAIN LINE",
+      "title": "尋幽・山線",
+      "subtitle": "循著綠廊與山谷，看花季、水岸、秋色與山城夜景",
+      "slides": [
+        {
+          "image": "assets/images/HeroPage_山線_01.jpg",
+          "alt": "德基水庫碧綠水面與層疊群山"
+        },
+        {
+          "image": "assets/images/HeroPage_山線_02.jpg",
+          "alt": "武陵農場春日櫻花"
+        },
+        {
+          "image": "assets/images/HeroPage_山線_03.jpg",
+          "alt": "潭雅神綠園道林蔭 S 型車道"
+        },
+        {
+          "image": "assets/images/HeroPage_山線_04.jpg",
+          "alt": "后里鬱金香花田與風車"
+        },
+        {
+          "image": "assets/images/HeroPage_山線_05.jpg",
+          "alt": "石岡水壩與大甲溪河岸"
+        },
+        {
+          "image": "assets/images/HeroPage_山線_06.jpg",
+          "alt": "秋日落羽松與金色水面倒影"
+        },
+        {
+          "image": "assets/images/HeroPage_山線_07.jpg",
+          "alt": "山線交流道、聚落燈火與遠方摩天輪夜景"
+        }
+      ]
+    },
+    "subnav": [
+      {
+        "target": "story",
+        "label": "山線印象",
+        "english": "MOUNTAIN STORY",
+        "description": "認識・九區風景"
+      },
+      {
+        "target": "guide",
+        "label": "旅行攻略",
+        "english": "TRAVEL NOTES",
+        "description": "探索・八種靈感"
+      },
+      {
+        "target": "spots",
+        "label": "必遊景點",
+        "english": "HIGHLIGHTS",
+        "description": "走訪・人氣地標"
+      },
+      {
+        "target": "flavors",
+        "label": "地方風味",
+        "english": "LOCAL FLAVORS",
+        "description": "品嚐・山城滋味"
+      },
+      {
+        "target": "route",
+        "label": "推薦遊程",
+        "english": "ONE DAY TRIP",
+        "description": "出發・山線慢遊"
+      }
+    ],
+    "story": {
+      "eyebrow": "MEET THE MOUNTAINS",
+      "title": "九座山城，\n一條風景長廊。",
+      "paragraphs": [
+        "臺中山線從豐原、后里一路向東延伸到和平高山。舊山線鐵道留下隧道、橋梁與車站記憶，昔日運輸路徑如今化為騎行與散步的風景線。",
+        "沿途可在后里看花、東勢與新社走進客庄田園，再往谷關泡湯、到大雪山與梨山親近森林和果園。海拔與季節不斷變換，讓每次造訪都有不同色彩。"
+      ],
+      "districts": [
+        "豐原區",
+        "后里區",
+        "石岡區",
+        "東勢區",
+        "和平區",
+        "新社區",
+        "潭子區",
+        "大雅區",
+        "神岡區"
+      ]
+    },
+    "mosaic": {
+      "eyebrow": "MOUNTAIN SCENES",
+      "title": "森林、花田與山谷，\n收藏四季的呼吸。",
+      "intro": "從低海拔的綠廊與花園，走向雲霧繚繞的高山森林；讓旅程沿著地勢慢慢升高，也讓身心在自然裡逐漸放鬆。",
+      "items": [
+        {
+          "alignment": "left",
+          "image": "assets/images/Taichung_images_山線_12.jpg",
+          "alt": "武陵農場櫻花步道與山坡田園",
+          "number": "01",
+          "kicker": "SEASONS",
+          "caption": "花開成路，山谷換上春色"
+        },
+        {
+          "alignment": "right",
+          "image": "assets/images/Taichung_images_山線_14.jpg",
+          "alt": "石岡水壩與河岸風景",
+          "number": "02",
+          "kicker": "RIVER",
+          "caption": "沿著大甲溪，讀山城的水脈"
+        },
+        {
+          "alignment": "offset",
+          "image": "assets/images/Taichung_images_山線_18.jpg",
+          "alt": "山林中的秋日楓葉",
+          "number": "03",
+          "kicker": "FOREST",
+          "caption": "走進林間，聽見季節轉身"
+        }
+      ]
+    },
+    "guide": {
+      "eyebrow": "TRAVEL NOTES",
+      "title": "捕捉山線靈感",
+      "note": "單車、花季、溫泉與高山森林，找到最適合你的旅行步調。"
+    },
+    "spots": {
+      "eyebrow": "MOUNTAIN HIGHLIGHTS",
+      "title": "山線必遊",
+      "more_url": "https://travel.taichung.gov.tw/zh-tw/attractions/list?extra_region=fengyuan%2Chouli%2Cshigang%2Cdongshi%2Cheping%2Cxinshe%2Ctanzi%2Cdaya%2Cshengang",
+      "cards": [
+        {
+          "url": "https://travel.taichung.gov.tw/zh-tw/attractions/intro/68",
+          "image": "assets/images/HeroPage_山線_02.jpg",
+          "alt": "武陵農場櫻花步道與山坡田園",
+          "number": "",
+          "meta": "",
+          "kicker": "SEASONS · HEPING",
+          "title": "武陵農場",
+          "description": "坐落於雪霸群山環抱的高山谷地，春櫻、夏綠、秋楓與冬梅輪番上場；沿步道漫遊花林與田園，感受四季分明的山野風景。",
+          "details": [],
+          "slug": "mountain-highlight-1",
+          "sort_order": 1
+        },
+        {
+          "url": "https://travel.taichung.gov.tw/zh-tw/attractions/intro/89",
+          "image": "assets/images/Taichung_images_山線_22.jpg",
+          "alt": "后豐鐵馬道花梁鋼橋上的自行車騎士",
+          "number": "",
+          "meta": "",
+          "kicker": "CYCLING · HOULI / FENGYUAN",
+          "title": "后豐鐵馬道",
+          "description": "由舊山線鐵路改建，沿途穿越九號隧道與花梁鋼橋；騎行在大甲溪谷之間，一路收藏鐵道遺構與山林風景。",
+          "details": [],
+          "slug": "mountain-highlight-2",
+          "sort_order": 2
+        },
+        {
+          "url": "https://travel.taichung.gov.tw/zh-tw/attractions/intro/346",
+          "image": "assets/images/Taichung_images_山線_15.jpg",
+          "alt": "谷關溫泉公園",
+          "number": "",
+          "meta": "",
+          "kicker": "HOT SPRING · HEPING",
+          "title": "谷關溫泉區",
+          "description": "群山與溪谷環抱的泡湯勝地，可漫步溫泉公園、走訪步道，再用一池暖湯為山旅收尾。",
+          "details": [],
+          "slug": "mountain-highlight-3",
+          "sort_order": 3
+        }
+      ]
+    },
+    "flavors": {
+      "banner_image": "assets/images/Taichung_images_山線_07.jpg",
+      "eyebrow": "LOCAL FLAVORS",
+      "title": "從廟口出發，\n嚐一口山城日常。",
+      "intro": "廟東街巷的人潮與攤香，是山線味覺旅程最熱鬧的開場；再往東勢、新社與和平前進，冰品、鮮菇與客式醃漬各自訴說地方風土。",
+      "tags": [],
+      "collection_eyebrow": "TASTE THE MOUNTAINS",
+      "collection_title": "山線風味提案",
+      "note": "",
+      "cards": [
+        {
+          "url": "https://travel.taichung.gov.tw/zh-tw/shop/consume/3703",
+          "image": null,
+          "alt": "",
+          "number": "01",
+          "meta": "CAFÉ · 豐原",
+          "kicker": "",
+          "title": "梨子咖啡館・豐原店",
+          "description": "從豐原起家的溫馨咖啡館，以咖啡香、甜點與舒適空間，提供山線旅程一處從容的早午餐停靠。",
+          "details": [
+            {
+              "label": "推薦",
+              "value": "咖啡、蛋糕與餐點"
+            },
+            {
+              "label": "地址",
+              "value": "陽明街86號1樓"
+            }
+          ]
+        },
+        {
+          "url": "https://travel.taichung.gov.tw/zh-tw/shop/consume/3818",
+          "image": null,
+          "alt": "",
+          "number": "02",
+          "meta": "DESSERT · 東勢",
+          "kicker": "",
+          "title": "東勢大碗公冰店",
+          "description": "鄰近東豐自行車綠廊起點，選用當季水果與農產製作冰品，是騎行後清涼又有份量的補給站。",
+          "details": [
+            {
+              "label": "推薦",
+              "value": "芋頭紅豆牛奶冰"
+            },
+            {
+              "label": "地址",
+              "value": "中山路33號"
+            }
+          ]
+        },
+        {
+          "url": "https://travel.taichung.gov.tw/zh-tw/shop/consume/4045",
+          "image": null,
+          "alt": "",
+          "number": "03",
+          "meta": "SCENIC DINING · 新社",
+          "kicker": "",
+          "title": "菇神觀景複合式餐飲",
+          "description": "與在地菇農合作，將每日鮮採的多種菇蕈熬入湯頭；用一鍋養生鮮菇料理品嚐新社風土。",
+          "details": [
+            {
+              "label": "推薦",
+              "value": "養生菇類火鍋"
+            },
+            {
+              "label": "地址",
+              "value": "協中街287號"
+            }
+          ]
+        },
+        {
+          "url": "https://travel.taichung.gov.tw/zh-tw/shop/consume/4054",
+          "image": null,
+          "alt": "",
+          "number": "04",
+          "meta": "LOCAL FLAVOR · 和平",
+          "kicker": "",
+          "title": "谷關白鹿泡菜",
+          "description": "以大雪山泉水、高山蔬菜及客家醃漬工法製作，保留台式爽脆與微辣醬香，呈現獨特客式泡菜風味。",
+          "details": [
+            {
+              "label": "推薦",
+              "value": "手工客式泡菜"
+            },
+            {
+              "label": "地址",
+              "value": "東關路三段2-23號"
+            }
+          ]
+        }
+      ],
+      "more_url": ""
+    },
+    "routes": {
+      "advice": "山區路程受天候與交通影響較大；出發前請確認道路、步道、園區開放及大眾運輸最新資訊。",
+      "tabs": [
+        {
+          "key": "day",
+          "label": "一日遊",
+          "english": "ONE DAY"
+        },
+        {
+          "key": "two-days",
+          "label": "二日遊",
+          "english": "TWO DAYS"
+        },
+        {
+          "key": "bike",
+          "label": "鐵馬行",
+          "english": "CYCLING"
+        },
+        {
+          "key": "drive",
+          "label": "高山行",
+          "english": "HIGHLANDS"
+        }
+      ],
+      "plans": {
+        "day": {
+          "eyebrow": "ONE DAY JOURNEY",
+          "title": "山線一日，<br>從鐵道騎進山城。",
+          "description": "以豐原為起點，串聯后里、石岡與東勢，把老街小吃、舊鐵道和河谷風景收進一天。",
+          "meta": [
+            "單車＋步行",
+            "約 9 小時"
+          ],
+          "stops": [
+            [
+              "09:00",
+              "START",
+              "豐原車站",
+              "抵達山線門戶，租借單車或轉乘前往后里。"
+            ],
+            [
+              "10:00",
+              "CYCLING",
+              "后豐鐵馬道",
+              "穿越九號隧道與花梁鋼橋，沿大甲溪谷迎風騎行。"
+            ],
+            [
+              "12:30",
+              "RIVER",
+              "石岡水壩",
+              "在河岸休息看水景，再銜接東豐自行車綠廊。"
+            ],
+            [
+              "15:00",
+              "HAKKA",
+              "東勢客家文化園區",
+              "走進舊車站與客庄記憶，品嚐一份山城點心。"
+            ],
+            [
+              "18:00",
+              "NIGHT",
+              "豐原廟東復興商圈",
+              "以排骨麵、蚵仔煎和鳳梨冰為今日收尾。"
+            ]
+          ]
+        },
+        "two-days": {
+          "eyebrow": "TWO DAYS JOURNEY",
+          "title": "花園與溫泉，<br>住進山城兩日。",
+          "description": "第一天慢遊后里與新社，第二天沿大甲溪谷深入谷關，兼顧花景、田園與泡湯時光。",
+          "meta": [
+            "自駕建議",
+            "2 天 1 夜"
+          ],
+          "stops": [
+            [
+              "09:00",
+              "FLOWERS",
+              "中社觀光花市",
+              "DAY 1：在季節花田迎接山線的明亮早晨。",
+              "DAY 1"
+            ],
+            [
+              "12:00",
+              "COUNTRYSIDE",
+              "新社菇園午餐",
+              "DAY 1：品嚐鮮菇料理，認識山城農產。"
+            ],
+            [
+              "14:30",
+              "GARDEN",
+              "新社山城花園",
+              "DAY 1：在香草、花園與林間步道散步。"
+            ],
+            [
+              "09:30",
+              "VALLEY",
+              "谷關溫泉公園",
+              "DAY 2：沿溪谷散步，在泡腳池感受溫泉暖意。",
+              "DAY 2"
+            ],
+            [
+              "12:00",
+              "LOCAL FOOD",
+              "谷關午餐",
+              "DAY 2：補充體力，品嚐山產與地方料理。"
+            ],
+            [
+              "14:00",
+              "TRAIL",
+              "谷關步道散策",
+              "DAY 2：依體力選擇親山步道，欣賞溪谷森林。"
+            ],
+            [
+              "16:30",
+              "HOT SPRING",
+              "谷關泡湯",
+              "DAY 2：用一池溫泉替兩日山旅溫柔收尾。"
+            ]
+          ]
+        },
+        "bike": {
+          "eyebrow": "CYCLING JOURNEY",
+          "title": "雙綠廊串騎，<br>追一段舊山線。",
+          "description": "以后里為起點，串聯后豐鐵馬道與東豐自行車綠廊；隧道、鐵橋、水壩與客庄一次收藏。",
+          "meta": [
+            "自行車",
+            "約 6–8 小時"
+          ],
+          "stops": [
+            [
+              "08:30",
+              "START",
+              "后里馬場",
+              "租車整備後出發，先感受百年馬場周邊風景。"
+            ],
+            [
+              "09:30",
+              "TUNNEL",
+              "舊山線九號隧道",
+              "騎進涼爽隧道，穿越舊鐵道留下的時光廊道。"
+            ],
+            [
+              "10:30",
+              "BRIDGE",
+              "花梁鋼橋",
+              "從橋上眺望大甲溪與峽谷，欣賞山線代表景觀。"
+            ],
+            [
+              "12:30",
+              "REST",
+              "石岡水壩",
+              "在河岸休息午餐，觀察水利地景。"
+            ],
+            [
+              "15:00",
+              "TERMINUS",
+              "東勢客家文化園區",
+              "抵達舊東勢車站，在客庄街區散步補給。"
+            ]
+          ]
+        },
+        "drive": {
+          "eyebrow": "HIGHLAND JOURNEY",
+          "title": "沿山路向上，<br>遇見雲霧與果香。",
+          "description": "安排兩至三天走訪大雪山或梨山，讓森林、雲海與高山聚落成為旅程主角。",
+          "meta": [
+            "自駕／預約交通",
+            "建議 2–3 天"
+          ],
+          "stops": [
+            [
+              "08:00",
+              "DEPARTURE",
+              "東勢山城出發",
+              "確認天候與道路資訊，備妥保暖衣物、飲水與補給。"
+            ],
+            [
+              "10:30",
+              "FOREST",
+              "大雪山森林遊樂區",
+              "循步道拜訪神木與天池，放慢速度觀察森林生態。"
+            ],
+            [
+              "15:30",
+              "SUNSET",
+              "高山觀景點",
+              "在安全開放區域等待雲霧變化與山間暮色。"
+            ],
+            [
+              "09:00",
+              "HIGHLAND",
+              "梨山風景區",
+              "翌日走訪高山聚落、果園與茶園，眺望層疊群峰。",
+              "DAY 2"
+            ],
+            [
+              "13:30",
+              "SEASON",
+              "武陵農場",
+              "依季節賞櫻、楓紅或高山景觀，預留充足步行時間。"
+            ]
+          ]
+        }
+      }
+    },
+    "next": {
+      "label": "繼續探索臺中",
+      "target": "四大區域 →"
+    },
+    "home": {
+      "jump_label": "尋幽・山線",
+      "card_image": "assets/images/Taichung_images_山線_03.jpg",
+      "card_alt": "臺中山線自然景觀",
+      "tagline": "尋幽・山線",
+      "intro": "循著稜線，探索山林與四季交織的自然風景。"
+    },
+    "journal": {
+      "label": "森林・溫泉之旅",
+      "intro": "八種循山而行的旅行靈感，從林蔭單車、花季與夜市，到溫泉、高山森林與水庫遠眺，感受山線豐富的高度與節奏。"
+    },
+    "is_published": true,
+    "sort_order": 4,
+    "view_count": 0,
+    "updated_at": "2026-08-10T07:07:41.863Z"
+  }
+]

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="走進臺中的城區、屯區、海線與山線，閱讀旅人的真實旅行故事。">
+  <title>旅人手記｜臺中好地 Fun</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Noto+Sans+TC:wght@300;400;500;600&family=Noto+Serif+TC:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css"><link rel="stylesheet" href="css/city.css"><link rel="stylesheet" href="css/travel-stories.css">
+</head>
+<body id="top">
+  <header class="site-header" id="top"><a class="brand" href="index.html" aria-label="回到首頁"><img src="images/taichung-good-fun-logo-v3.png" alt="臺中好地 Fun"></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button><nav id="main-nav" aria-label="區域選單"><a class="region-switch active" href="#stories" data-region="city">城區</a><a class="region-switch" href="#stories" data-region="tun">屯區</a><a class="region-switch" href="#stories" data-region="coast">海線</a><a class="region-switch" href="#stories" data-region="mountain">山線</a><a class="lang" href="index.html">HOME</a></nav></header>
+  <main>
+    <section class="story-hero city-hero" aria-label="精選遊記輪播">
+      <div class="hero-track city-hero-track" id="hero-track"></div><div class="hero-shade city-hero-shade"></div>
+      <div class="hero-content city-hero-copy"><p class="eyebrow light">TAICHUNG · TRAVEL JOURNAL</p><p class="hero-count"><span id="hero-current">01</span> / <span id="hero-total">03</span></p><h1 id="hero-title"></h1><p class="hero-desc" id="hero-desc"></p></div>
+      <div class="hero-controls city-carousel-controls"><button class="city-carousel-arrow" type="button" id="hero-prev" aria-label="上一張">←</button><div class="hero-dots city-carousel-dots" id="hero-dots" role="tablist"></div><button class="city-carousel-arrow" type="button" id="hero-next" aria-label="下一張">→</button></div><a class="scroll-cue" href="#stories"><span>DISCOVER</span><i></i></a>
+    </section>
+    <nav class="region-nav city-subnav" aria-label="依區域瀏覽遊記"><a class="region-switch active" href="#stories" data-region="city"><b>城區</b><small>CITY CENTER</small><span>漫遊・八種靈感</span></a><a class="region-switch" href="#stories" data-region="tun"><b>屯區</b><small>TUN DISTRICT</small><span>山城・近郊慢旅</span></a><a class="region-switch" href="#stories" data-region="coast"><b>海線</b><small>COAST LINE</small><span>海風・夕陽散策</span></a><a class="region-switch" href="#stories" data-region="mountain"><b>山線</b><small>MOUNTAIN LINE</small><span>森林・溫泉之旅</span></a></nav>
+    <section class="stories" id="stories"><header class="section-heading"><div><p class="kicker" id="section-en"></p><h2><span id="section-name"></span>・旅人手記</h2></div><p id="section-intro"></p></header><div class="story-grid" id="story-grid" aria-live="polite"></div></section>
+  </main>
+  <footer><img src="images/taichung-good-fun-logo-v3.png" alt="臺中好地 Fun"><p>把每一段路，寫成下一次出發的理由。</p><a href="#top">BACK TO TOP ↑</a></footer>
+  <script src="js/travel-stories.js"></script>
+</body></html>

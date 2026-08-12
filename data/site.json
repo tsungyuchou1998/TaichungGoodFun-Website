@@ -1,0 +1,114 @@
+{
+  "page": {
+    "title": "臺中好地 Fun｜旅行導覽",
+    "description": "臺中好地 Fun：探索臺中的城市、山線、屯區與海線風景。"
+  },
+  "site": {
+    "logo": "assets/images/taichung-good-fun-logo-v3.png",
+    "nav_about": "關於臺中",
+    "nav_regions": "區域探索",
+    "nav_featured": "景點精選",
+    "nav_news": "最新消息",
+    "copyright": "© 2026 臺中好地 Fun"
+  },
+  "journal": {
+    "label": "旅人手記",
+    "action": "翻閱 →",
+    "page_title": "旅人手記｜臺中好地 Fun",
+    "page_description": "走進臺中的城區、屯區、海線與山線，閱讀旅人的真實旅行故事。",
+    "eyebrow": "TAICHUNG · TRAVEL JOURNAL",
+    "heading_suffix": "・旅人手記",
+    "footer_text": "把每一段路，寫成下一次出發的理由。",
+    "back_to_top": "BACK TO TOP ↑"
+  },
+  "hero": {
+    "slides": [
+      {
+        "image": "assets/images/HeroPage-open.jpg",
+        "alt": "臺中璀璨夜景"
+      },
+      {
+        "image": "assets/images/HeroPage-01-HD.jpg",
+        "alt": "臺中公園與城市天際線"
+      },
+      {
+        "image": "assets/images/HeroPage-02.png",
+        "alt": "夜色中的臺中公園湖心亭"
+      },
+      {
+        "image": "assets/images/HeroPage-03.jpg",
+        "alt": "臺中現代建築與公共空間"
+      },
+      {
+        "image": "assets/images/HeroPage-04.png",
+        "alt": "臺中州廳與公共藝術景觀"
+      },
+      {
+        "image": "assets/images/HeroPage-05.jpg",
+        "alt": "秋日落羽松與湖面倒影"
+      },
+      {
+        "image": "assets/images/HeroPage-end.jpg",
+        "alt": "臺中夜間城市建築與水舞景觀"
+      }
+    ],
+    "japanese": "そこに、美しい町があります。",
+    "micro": "THERE IS A BEAUTIFUL TOWN HERE.",
+    "primary_label": "開始探索",
+    "video_label": "觀賞臺中"
+  },
+  "about": {
+    "eyebrow": "ABOUT TAICHUNG",
+    "title": "漫步臺中，\n讓時光慢慢流動。",
+    "body": "臺中，一座融合歷史、人文與創新的城市。從百年古蹟、特色聚落到現代地標，串聯出豐富的文化軌跡；結合在地美食、自然景觀與職人精神，邀您一起發掘屬於臺中的精彩故事與城市魅力。",
+    "body_en": "Taichung is where history, culture, and creativity meet. Wander through century-old\nlandmarks, charming neighborhoods, and modern cityscapes. Savor local flavors, discover artisan craftsmanship,\nand escape into rolling hills and coastal wetlands. With stories hidden around every corner, Taichung invites\nyou to slow down, explore, and uncover its quiet yet captivating charm.",
+    "link_label": "探索更多",
+    "image": "assets/images/HeroPage-02.png",
+    "image_alt": "夜色中的臺中公園湖心亭",
+    "stat_label": "VISITOR ARRIVALS",
+    "stat_count": 147190000,
+    "stat_suffix": "+",
+    "stat_caption": "譜寫屬於你的臺中故事"
+  },
+  "regions": {
+    "eyebrow": "REGIONAL EXPLORATION",
+    "title": "區域探索",
+    "more_label": "查看全部",
+    "more_url": "https://travel.taichung.gov.tw/zh-tw/attractions/list"
+  },
+  "featured": {
+    "poster": "assets/images/HeroPage-end.jpg",
+    "playlist": [
+      {
+        "src": "assets/images/台中縮時 _ 高美濕地即時影像縮時攝影_精選片段.mp4",
+        "title": "高美濕地",
+        "subtitle": "GAOMEI WETLANDS · WHERE LAND MEETS THE SEA",
+        "object_position": "50% 50%"
+      },
+      {
+        "src": "assets/images/【參山美景】攬勝樓啞口.mp4",
+        "title": "攬勝樓",
+        "subtitle": "LISHAN RANGE ROVER BUILDING · WHERE MOUNTAINS MEET THE SEA OF CLOUDS",
+        "object_position": "50% 40%"
+      },
+      {
+        "src": "assets/images/台中即時影像 _ 望高寮夜景片段1.mp4",
+        "title": "望高寮",
+        "subtitle": "WANGGAOLIAO · WHERE CITY LIGHTS MEET THE NIGHT",
+        "object_position": "50% 60%"
+      }
+    ]
+  },
+  "news": {
+    "eyebrow": "NEWS",
+    "title": "最新消息",
+    "intro": "臺中市近期舉辦的活動，邀您共襄盛舉",
+    "more_label": "more+",
+    "more_url": "https://travel.taichung.gov.tw/zh-tw/event/news"
+  },
+  "modal": {
+    "title": "臺中風景影片",
+    "poster": "assets/images/HeroPage-end.jpg",
+    "video": "assets/images/2026最新台中觀光宣傳影片《穿梭・臺中想像Shutter Taichung_ Routes of Imagination》_1080p.mp4"
+  }
+}

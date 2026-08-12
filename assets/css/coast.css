@@ -1,0 +1,10 @@
+.coast-page .flavor-photo {
+  background-image: url('../images/Taichung_images_海線_06.jpg');
+  background-position: center;
+}
+
+@media (max-width: 900px) {
+  .coast-page .flavor-photo {
+    background-attachment: scroll;
+  }
+}
